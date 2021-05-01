@@ -10,5 +10,11 @@ export default {
   width: 540,
   height: 960,
   mode: Phaser.Scale.FIT,
-  autoCenter: Phaser.Scale.CENTER_BOTH
+  autoCenter: Phaser.Scale.CENTER_BOTH,
+  physics: {
+    default: 'matter',
+    matter: {
+      debug: true
+    }
+  }
 };
